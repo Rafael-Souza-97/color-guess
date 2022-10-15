@@ -1,4 +1,4 @@
-# Color-Guess
+# Color Guess
 
 Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos de [JavaScript](https://www.javascript.com/), [HTML](https://html.com/) e [CSS](https://www.w3.org/Style/CSS/Overview.en.html).
 
