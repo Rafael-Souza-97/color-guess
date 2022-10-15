@@ -27,4 +27,4 @@ Neste projeto foi implementado um jogo de advinhação das cores através do RGB
 
 ## Site / Deploy
 
-https://mistery-letter-beta.vercel.app/
+https://color-guess-rouge.vercel.app/
