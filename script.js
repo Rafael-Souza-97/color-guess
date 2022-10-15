@@ -53,6 +53,7 @@ function generateColors() {
 
 resetButton.addEventListener('click', function () {
   starterText.innerText = 'Escolha uma cor';
+  score.innerHTML = '0';
   answer.innerText = randomColor();
   generateColors();
 });
@@ -61,5 +62,5 @@ window.onload = function () {
   answer.innerText = randomColor();
   generateColors();
   starterText.innerHTML = 'Escolha uma cor';
-//   score.innerText = localStorage.getItem('guessColorScore') || 0;
+  // score.innerText = localStorage.getItem('guessColorScore') || 0;
 };
