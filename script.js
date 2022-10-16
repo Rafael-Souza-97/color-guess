@@ -11,8 +11,6 @@ function randomColor() {
   return `(${red}, ${green}, ${blue})`;
 }
 
-// rgb(121, 121, 121)
-
 function answerStatus(event) {
   const rightColor = document.getElementById('rgb-color');
   if (event.target.id === rightColor.innerText) {
@@ -29,14 +27,8 @@ function answerStatus(event) {
    }
 }
 
-function verfifyColors() {
-  let randomNumberBall = Math.floor(Math.random() * (divColor.length - 1));
-  let rgbRandom = divColor[randomNumberBall].style.backgroundColor;
-  answer.innerText = rgbRandom.split('rgb')[1];
-}
-
 function generateColors() {
-  const rightIndex = Math.floor(Math.random() * divColor.length - 1);
+  const rightIndex = Math.floor(Math.random() * divColor.length);
   for (let index = 0; index < divColor.length; index += 1) {
     const oneColor = divColor[index];
     oneColor.addEventListener('click', answerStatus);
@@ -62,5 +54,4 @@ window.onload = function () {
   answer.innerText = randomColor();
   generateColors();
   starterText.innerHTML = 'Escolha uma cor';
-  // score.innerText = localStorage.getItem('guessColorScore') || 0;
 };
