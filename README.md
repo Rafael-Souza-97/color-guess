@@ -4,6 +4,13 @@ Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para r
 
 Neste projeto foi implementado um jogo de advinhação das cores através do RGB.
 
+Descrição do projeto:
+
+> Dentro de uma possibilidade de cores o jogador deverá tentar adivinhar qual cor foi aleatoriamente selecionada como a cor certa;
+ > - A paleta de cores deve ser apresentada por círculos coloridos;
+ > - Deverá existir um botão para iniciar e reiniciar o jogo;
+ > - Ao selecionar uma cor um texto deverá informar se você acertou ou não a cor correta.
+
 ## Autor
 
 - [Rafael Souza](https://github.com/Rafael-Souza-97)
